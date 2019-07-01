@@ -1,0 +1,122 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
+div{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: block;
+}
+#wrap {
+    height: 100%;
+    min-width: 100;
+    min-height: auto;
+    box-sizing: border-box;
+    padding-bottom: 166px;
+}
+#head {
+    overflow: hidden;
+    height: 39px;
+    padding-top: 16px;
+    border-top: 3px solid #FF9B00;
+    border-bottom: 1px solid #8c8c8c;
+}
+#head h1 {
+    float: left;
+    margin: 0 0 0 25px;
+}
+#head a {
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.hide {
+    display: none;
+}
+
+/*팝업창*/
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 140px;
+}
+
+#count {
+    min-height: 100%;
+    margin-bottom: 0;
+    display: block;
+    overflow: hidden;
+}
+.login-form {
+    margin: 60px auto 20px;
+    width: 368px;
+    height: 421px;
+    border: 2px solid #FF9B00;
+    border-radius: 8px;
+    padding: 36px 40px;
+}
+.user {
+    margin: 10px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-field {
+    padding: 13px 15px;
+    border-radius: 4px;
+    height: 28px;
+    margin: 10px;
+    width: 326px;
+    border: 2px solid #8c8c8c;
+    font-family: 'Sunflower', sans-serif;
+}
+
+input {
+    box-shadow: none;
+}
+
+.submit-btn {
+   margin: 10px;
+   padding: 13px 15px;
+   font-size: 16px;
+   font-weight: bolder;
+   width: 326px;
+   height: 25pxpx;
+   background-color: #0A76BD;
+   color: #FF9B00;
+}
+
+#links {
+    color: #0A76BD;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 15px;
+    font-family: 'Sunflower', sans-serif;
+}
+
+#links .make {
+    text-align: left;
+    text-decoration: none;
+    margin-right: 20px;
+}
+#links .forget{
+    text-align: right;
+    margin-left: 20px;
+    text-decoration: none;
+}
